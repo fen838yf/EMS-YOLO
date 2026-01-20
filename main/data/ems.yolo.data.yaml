@@ -1,0 +1,26 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+#数据集1
+train: /mnt/e/EMS-YOLO/main/datasets/defect/images/train
+val: /mnt/e/EMS-YOLO/main/datasets/defect/images/val
+test: /mnt/e/EMS-YOLO/main/datasets/defect/images/test
+# number of classes
+nc: 4
+# class names
+names: ['glioma', 'meningioma', 'notumor', 'pituitary']
+
+##数据集2
+#train: /mnt/e/EMS-YOLO/main/datasets/defect2/images/train
+#val: /mnt/e/EMS-YOLO/main/datasets/defect2/images/val
+#test: /mnt/e/EMS-YOLO/-main/datasets/defect2/images/test
+## number of classes
+#nc: 3
+## class names
+#names: ['glioma', 'meningioma', 'pituitary']
+
+
+
+
